@@ -1,0 +1,7 @@
+.hero-unit {
+  background: url(/img/cover.jpg);
+  background-size: cover;
+  background-position: center top; }
+  .hero-unit .hero-unit-subheading {
+    color: #0ca549;
+    text-transform: uppercase; }

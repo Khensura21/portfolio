@@ -1,0 +1,26 @@
+// the very basis styles for the html document
+//only put tag elements in this file that will be applied to entire doc
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1 {
+    font-size: 74px;
+    font-weight: 700;
+    letter-spacing: -3px;
+
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
