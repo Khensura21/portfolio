@@ -28,3 +28,11 @@ p {
     line-height: 1.6;
     margin: 20px 0;
 }
+
+a {
+   text-decoration: underline; 
+
+   &:hover, &:active, &:focus {
+       color: rgb(192, 126, 4);
+   }
+}
