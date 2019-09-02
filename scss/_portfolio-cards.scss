@@ -1,0 +1,40 @@
+.portfolio-cards {
+  margin-top: 60px;
+
+  .portfolio-card {
+    background: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .portfolio-card-image {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .portfolio-card-information {
+        padding: 25px 5px;
+
+        .portfolio-card-title {
+            display: block; // enables title take up entire width
+            font-size: 20px;
+            letter-spacing: -1px;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .portfolio-card-credits {
+            display: block; //enables credits/category to take up entire width too
+            color: #a7a7a7;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 600;
+
+
+        }
+    }
+  }
+}
