@@ -12,8 +12,7 @@
     <!-- EXTERNAL links -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
     <!-- Google font (open sans), be sure to change & customize in later iteration  -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap"
         rel="stylesheet">
@@ -99,9 +98,19 @@
                             <br>
                             Who am I?
                         </h2>
-                        <p> My name is Khensu-Ra (pronounced kenz-rah), but to many I go by Ra. I grew up in the best city in the world, Chicago (yea I said it), in the infamous neighborhood of Englewood. I love my home teams Chicago Bulls, Blackhawks, Bears, and the White Soxs of course!</p>
-                        <p>After doing my undergraduate studies in Physics and Math at Morehouse College, I decided to join the dark-side...Computer Science (plays evil villian laugh)! Currently, I am a Master's student at NYU's Interactive Telecommunications Program (ITP) where I study as a developer, creative technologist, and researcher. My research explores intersections including Holistic Health, Technology + Education, and Sociopolitical Activism. </p>
-                        <p>In my down time, I participate in several hobbies. These include breakin' ankles on the basketball court, making a new vegan dish, watching my favorite anime, or reading a good book. Everyday I strive to learn something new to better my craft. I hope to use my technology skills one day to continue to make the world a better place for mankind because a wise man once said, with great powers come great responsibilities! </p>
+                        <p> My name is Khensu-Ra (pronounced kenz-rah), but to many I go by Ra. I grew up in the best
+                            city in the world, Chicago (yea I said it), in the infamous neighborhood of Englewood. I
+                            love my home teams Chicago Bulls, Blackhawks, Bears, and the White Soxs of course!</p>
+                        <p>After doing my undergraduate studies in Physics and Math at Morehouse College, I decided to
+                            join the dark-side...Computer Science (plays evil villian laugh)! Currently, I am a Master's
+                            student at NYU's Interactive Telecommunications Program (ITP) where I study as a developer,
+                            creative technologist, and researcher. My research explores intersections including Holistic
+                            Health, Technology + Education, and Sociopolitical Activism. </p>
+                        <p>In my down time, I participate in several hobbies. These include breakin' ankles on the
+                            basketball court, making a new vegan dish, watching my favorite anime, or reading a good
+                            book. Everyday I strive to learn something new to better my craft. I hope to use my
+                            technology skills one day to continue to make the world a better place for mankind because a
+                            wise man once said, with great powers come great responsibilities! </p>
                         <p>To see my entire repetoire of skills, <a href="#">click here.</a></p>
                     </div>
                 </div>
@@ -110,8 +119,40 @@
         <div class="content-section-side-image-container d-none d-sm-block"
             style="background-image: url('img/who-am-i-desktop.jpg')"></div>
     </section>
-    <!-- <h2> Contact Me! </h2>
-    <p>Always down to chat over the phone or a cup of tea too!</p> -->
+
+    <section class="content-section content-section-centered">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2> Contact Me!</h2>
+                    <p>Say hello. <em>Always</em> down to chat over a cup of tea too!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-3 col-sm-6">
+                    <form class="contact-form">
+                        <input type="text" class="contact-form-input" name="name" placeholder="Name" value="" required>
+                        <input type="email" class="contact-form-input" name="email" placeholder="Email Address" value="" required>
+                        <input type="text" class="contact-form-input" name="phone_number" placeholder="Phone Number" value="" required>
+                        <textarea class="contact-form-input" name="query" placeholder="Your Query..." ></textarea>
+                        <div class="contact-form-actions">
+                                <input type="checkbox" class="contact-form-checkbox-input" name="consent" id="consent"  value="1" required>
+                                <label for="consent" class="contact-form-checkbox-label">
+                                        I agree to receive a direct response to my inquiry via the contact details I provided above.
+                                </label>
+                                <button class="btn btn-primary btn-block" type="submit">Send Message</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        &copy; Khensu-Ra Love El - 2019
+    </footer>
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 

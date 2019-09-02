@@ -140,3 +140,80 @@ a {
         letter-spacing: 1px;
         text-transform: uppercase;
         font-weight: 600; }
+
+.contact-form {
+  margin-top: 30px; }
+  .contact-form .contact-form-input {
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    padding: 18px 22px;
+    font-size: 18px; }
+    .contact-form .contact-form-input::-webkit-input-placeholder {
+      color: #9e9e9e; }
+    .contact-form .contact-form-input:-ms-input-placeholder {
+      color: #9e9e9e; }
+    .contact-form .contact-form-input::-ms-input-placeholder {
+      color: #9e9e9e; }
+    .contact-form .contact-form-input::placeholder {
+      color: #9e9e9e; }
+  .contact-form textarea.contact-form-input {
+    min-height: 160px; }
+  .contact-form .contact-form-checkbox-input {
+    display: none; }
+    .contact-form .contact-form-checkbox-input:checked + .contact-form-checkbox-label:after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
+  .contact-form .contact-form-checkbox-label {
+    position: relative;
+    color: #adabab;
+    text-align: left;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 5px; }
+    .contact-form .contact-form-checkbox-label:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: -2px;
+      width: 35px;
+      height: 35px;
+      border-radius: 4px;
+      -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15); }
+    .contact-form .contact-form-checkbox-label:after {
+      position: absolute;
+      font-family: "Font Awesome 5 Free";
+      content: "\f00c";
+      left: 11px;
+      top: 9px;
+      color: #Ea2626;
+      opacity: 0;
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+      transform: scale(0.5);
+      -webkit-transition: opacity .3s, -webkit-transform .3s;
+      transition: opacity .3s, -webkit-transform .3s;
+      -o-transition: opacity .3s, transform .3s;
+      transition: opacity .3s, transform .3s;
+      transition: opacity .3s, transform .3s, -webkit-transform .3s; }
+
+.footer {
+  background: #eef1f2;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px 0; }
