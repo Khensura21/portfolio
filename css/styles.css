@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #0B3757; }
 
 h1 {
-  font-size: 74px;
+  font-size: 71px;
   font-weight: 700;
   letter-spacing: -3px; }
 
@@ -25,7 +25,7 @@ a {
     color: #c07e04; }
 
 .dark-content {
-  color: #9ACFF6; }
+  color: #fff; }
   .dark-content h1,
   .dark-content h2,
   .dark-content h3,
@@ -33,7 +33,7 @@ a {
   .dark-content h5,
   .dark-content h6,
   .dark-content p {
-    color: #9ACFF6; }
+    color: #fff; }
   .dark-content .img-circle {
     border-radius: 50%; }
 
@@ -43,9 +43,12 @@ a {
   background: linear-gradient(105.63deg, #EA2626 -21.04%, #0029FF 147.44%); }
 
 .hero-unit {
-  background: url(/img/cover.jpg);
   background-size: cover;
-  background-position: top right;
+  background-position: center left;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/img/cover.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/cover.jpg");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/cover.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/cover.jpg");
   min-height: 100vh;
   padding: 50px, 0; }
   .hero-unit .hero-unit-subheading {
