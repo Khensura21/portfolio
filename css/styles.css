@@ -3,7 +3,7 @@ html, body {
   color: #423D3F; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #0B3757; }
+  color: #03565d; }
 
 h1 {
   font-size: 71px;
@@ -20,9 +20,10 @@ p {
   margin: 20px 0; }
 
 a {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #9fedd7; }
   a:hover, a:active, a:focus {
-    color: #c07e04; }
+    color: #fce181; }
 
 .dark-content {
   color: #fff; }
@@ -35,12 +36,12 @@ a {
   .dark-content p {
     color: #fff; }
   .dark-content .img-circle {
-    border-radius: 50%; }
+    border-radius: 2px; }
 
 .bg-primary {
-  background: -webkit-linear-gradient(344.37deg, #EA2626 -21.04%, #0029FF 147.44%);
-  background: -o-linear-gradient(344.37deg, #EA2626 -21.04%, #0029FF 147.44%);
-  background: linear-gradient(105.63deg, #EA2626 -21.04%, #0029FF 147.44%); }
+  background: -webkit-linear-gradient(339.3deg, #099a97 6.3%, #15cda8 90.6%);
+  background: -o-linear-gradient(339.3deg, #099a97 6.3%, #15cda8 90.6%);
+  background: linear-gradient(110.7deg, #099a97 6.3%, #15cda8 90.6%); }
 
 .hero-unit {
   background-size: cover;
@@ -52,7 +53,7 @@ a {
   min-height: 100vh;
   padding: 50px, 0; }
   .hero-unit .hero-unit-subheading {
-    color: #0ca549;
+    color: #9fedd7;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 600px;
@@ -76,9 +77,7 @@ a {
   border: 0;
   padding: 15px 23px; }
   .btn.btn-primary {
-    background: -webkit-linear-gradient(344.37deg, #EA2626 -21.04%, #0029FF 147.44%);
-    background: -o-linear-gradient(344.37deg, #EA2626 -21.04%, #0029FF 147.44%);
-    background: linear-gradient(105.63deg, #EA2626 -21.04%, #0029FF 147.44%);
+    background: #026670;
     border-radius: 4px; }
 
 .content-section {
@@ -86,7 +85,7 @@ a {
   .content-section.content-section-centered {
     text-align: center; }
   .content-section.dark-content {
-    background: #031d4e; }
+    background: #026670; }
   .content-section.content-section-side-image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -205,7 +204,7 @@ a {
       content: "\f00c";
       left: 11px;
       top: 9px;
-      color: #Ea2626;
+      color: #92e6ce;
       opacity: 0;
       -webkit-transform: scale(0.5);
       -ms-transform: scale(0.5);

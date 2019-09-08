@@ -6,7 +6,7 @@ html, body {
     color: #423D3F;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #0B3757;
+    color: #03565d;
 }
 
 
@@ -31,8 +31,10 @@ p {
 
 a {
    text-decoration: underline; 
+   color: #9fedd7;
 
    &:hover, &:active, &:focus {
-       color: rgb(192, 126, 4);
+       color : #fce181;
    }
 }
+
