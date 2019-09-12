@@ -9,32 +9,41 @@
     margin-bottom: 30px;
 
     .portfolio-card-image {
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-
+      background-size: cover;
+      background-position: center;
+      height: 200px;
     }
 
     .portfolio-card-information {
-        padding: 25px 5px;
+      padding: 25px 5px;
 
-        .portfolio-card-title {
-            display: block; // enables title take up entire width
-            font-size: 20px;
-            letter-spacing: -1px;
-            margin-bottom: 5px;
-            font-weight: 600;
-        }
+      .portfolio-card-title {
+        display: block; // enables title take up entire width
+        font-size: 20px;
+        letter-spacing: -1px;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
 
-        .portfolio-card-credits {
-            display: block; //enables credits/category to take up entire width too
-            color: #a7a7a7;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            font-weight: 600;
-
-
-        }
+      .portfolio-card-credits {
+        display: block; //enables credits/category to take up entire width too
+        color: #a7a7a7;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      
     }
+    .portfolio-card-technologies {
+         display: flex;
+         justify-content: space-evenly;
+         padding: 25px 5px;
+         margin-bottom: 5px;
+        //  flex: 1 0 auto; //enables credits/category to take up entire width too
+     
+         i {
+            font-size: 3rem;
+         }
+      }
   }
 }
