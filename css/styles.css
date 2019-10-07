@@ -135,6 +135,11 @@ a {
       height: 200px; }
     .portfolio-cards .portfolio-card .portfolio-card-information {
       padding: 25px 5px; }
+      .portfolio-cards .portfolio-card .portfolio-card-information a {
+        font-weight: 500;
+        color: #84eccf; }
+        .portfolio-cards .portfolio-card .portfolio-card-information a:hover, .portfolio-cards .portfolio-card .portfolio-card-information a:active, .portfolio-cards .portfolio-card .portfolio-card-information a:focus {
+          color: #50cca9; }
       .portfolio-cards .portfolio-card .portfolio-card-information .portfolio-card-title {
         display: block;
         font-size: 20px;
@@ -146,7 +151,8 @@ a {
         color: #a7a7a7;
         letter-spacing: 1px;
         text-transform: uppercase;
-        font-weight: 600; }
+        font-weight: 600;
+        margin-bottom: 10px; }
     .portfolio-cards .portfolio-card .portfolio-card-technologies {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -154,7 +160,7 @@ a {
       -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
       justify-content: space-evenly;
-      padding: 25px 5px;
+      padding: 15px 5px;
       margin-bottom: 5px; }
       .portfolio-cards .portfolio-card .portfolio-card-technologies i {
         font-size: 3rem; }
